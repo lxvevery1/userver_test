@@ -1,0 +1,23 @@
+Start testing: Mar 02 09:34 UTC
+----------------------------------------------------------
+1/1 Testing: testsuite-Project
+1/1 Test: testsuite-Project
+Command: "/userver/userver-test/build_release/venv-userver-default/bin/python" "/userver/userver-test/build_release/runtests-Project" "--service-logs-pretty" "-vv"
+Directory: /userver/userver-test/build_release
+"testsuite-Project" start time: Mar 02 09:34 UTC
+Output:
+----------------------------------------------------------
+ERROR: usage: runtests-Project [options] [file_or_dir] [file_or_dir] [...]
+runtests-Project: error: unrecognized arguments: --build-dir=/userver/userver-test/build_release --service-logs-file=/userver/userver-test/build_release/Testing/Temporary/service.log --service-config=/userver/userver-test/configs/static_config.yaml --service-source-dir=/userver/userver-test --service-binary=/userver/userver-test/build_release/Project --service-logs-pretty
+  inifile: /userver/pytest.ini
+  rootdir: /userver
+
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Failed.
+"testsuite-Project" end time: Mar 02 09:34 UTC
+"testsuite-Project" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 02 09:34 UTC
